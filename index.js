@@ -4,6 +4,7 @@ const ages = [25, 18, 12, 16, 40];
 function processAges(ages) {
   //!your solution should be inside the function.
   //1-Use a for loop to iterate over the ages array and double each age. Store the doubled ages in a new array called doubledAges and Print the doubledAges array to the console.
+  let doubledAges = [];
   for (let age of ages) {
     doubledAges = age * 2;
     console.log(doubledAges);
