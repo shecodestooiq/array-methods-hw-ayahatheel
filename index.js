@@ -6,9 +6,9 @@ function processAges(ages) {
   //1-Use a for loop to iterate over the ages array and double each age. Store the doubled ages in a new array called doubledAges and Print the doubledAges array to the console.
   let doubledAges = [];
   for (let age of ages) {
-    doubledAges = age * 2;
-    console.log(doubledAges);
-}
+      doubledAges.push(age * 2); // Push each doubled age into doubledAges array
+      console.log(doubledAges);
+  }
 
   //2-Use the forEach method to loop through the ages array and print each age to the console.
   ages.forEach(age => {
